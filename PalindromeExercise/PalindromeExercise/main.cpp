@@ -23,10 +23,10 @@ int main() {
     cout << "Please enter a word to define whether it is a palindrome word or not : \n";
     cin >> word;
     
-    if (word == reverseWord){
-        cout << "Your word" << word << "is a palindrome word. \n";
+    if (isPalindrome(word)){
+        cout << "Your word " << word << " is a palindrome word. \n";
     } else {
-        cout << "Your word" << word << "is not a palindrome word. \n";
+        cout << "Your word " << word << " is not a palindrome word. \n";
     }
     return 0;
 }
