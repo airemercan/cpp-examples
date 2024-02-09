@@ -13,7 +13,7 @@ using namespace std;
 
 bool isPalindrome(string word){
     string reverseWord = "";
-    for (int i = reverseWord.length()-1;i >= 0; i--){
+    for (int i = word.length()-1;i >= 0; i--){
         reverseWord += word[i];
     }
     return word == reverseWord;
